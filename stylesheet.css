@@ -1,0 +1,115 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+  /*
+  none : リストの先頭の・を消せる
+  */
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li {
+  float: left; /*左から並んでいく*/
+  padding: 33px 20px;
+}
+
+/*main*/
+
+
+/*footer*/
+.footer {
+  background-color: #2f5437;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;/*左から並んでいく　でも１個しかないから右に寄るだけ*/
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+/*
+.pra_img {
+  float: top;
+}
+*/
+
+.myname {
+  color: red;
+}
+
+.title {
+  border-bottom: 5px solid #b1d026;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-size: 24px;
+
+}
+
+.pra_font_var {
+  padding: 0px;
+}
+.pra_font_var h1 {
+  font-family: serif;
+  color: #faaaaf;
+  background-color: #26d0c9;
+  width: 1000px;
+  
+}
+.pra_font_var h2 {
+  font-family: YuMincho;
+  color: #fff;
+  background-color: #000;
+  width: 100%;
+  
+}
+
+
+
+
+.pra_hori li{
+  float: left;
+  font-size: 32px;
+  padding: 50px;
+  color: #fa84df;
+}
+.bgEx1 {
+  background-color: blue;
+}
+.bgEx2 {
+  background-color: red;;
+}
+
+input {
+  width: 30%;
+}
+textarea {
+  width: 80%;
+  height: 200px;
+}
+
+input, textarea {/*複数のセレクタに同時にCSSを適用するときはカンマで連ねる*/
+  border: 3px solid #aa33aa;
+}
