@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>HTML/CSS Practice</title><!-- tabの表示名 -->
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/d4e86ebdaa.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="header">
@@ -53,7 +54,7 @@
 
       <!-- 画像の表示 -->
       <div class="pra_img">
-        <h3 class="title">画像の表示</h3>
+        <h3 class="title">clear: left;で横並びリセット</h3>
         <img src="https://www.petfamilyins.co.jp/pns/wp-content/uploads/2021/12/01_little-redhead-kitten-768x512.jpg.webp">
       </div>
 
@@ -78,11 +79,54 @@
         </div>
         
       </div>
-      
-      
-      
-      
 
+      <!-- inline to block -->
+      <div>
+        <h3 class="title">中央寄せ</h3>
+        <a class="link_insta" href="https://www.instagram.com/">inline要素のaタグをdisplayでブロックに！</a>
+        <p class="link_insta">また，text-alignで中央寄せに！</p>
+      </div>
+
+      <!-- hover -->
+      <div>
+        <h3 class="title">hover</h3>
+        <p class="pra_hover">カーソルを当てるとスタイルが変わる</p>
+      </div>
+
+      <!-- 角を丸くする -->
+      <div>
+        <h3 class="title">バックグランドの角を丸くする</h3>
+        <div class="box1 hori"></div>
+        <div class="box2 hori"></div>
+        <div class="box3 hori"></div>
+      </div>
+
+      <!-- Font Awesome -->
+      <div class="font_awesome">
+        <h3 class="title">Font Awesome</h3>
+        <span class="fa fa-facebook fa-border"></span><!-- fa-borderで外枠　サイトでいろいろ見た方がいい -->
+        <span class="fa fa-twitter"></span>
+        <span class="fa-10x fa-brands fa-tiktok"></span>
+        <span class="fa-brands fa-github fa-spin"></span>
+      </div>
+      
+      <!-- trans -->
+      <div class="trans">
+        <h3 class="title">時間をかけてhoverする</h3>
+        <p>line-heightと要素の高さを同じにして，文字を上下の中央に配置している</p>
+        <p>opacityは全体の透明度が変更されてしまうが，rgbaで透明度を指定すれば特定のところのみ変えられる</p>
+        <div class="box4 hori">１秒</div>
+        <div class="box5 hori">２秒</div>
+        <div class="box6 hori">３秒</div>
+      </div>
+
+      <!-- click a tag -->
+      <div class="click">
+        <h3 class="title">aタグのクリック範囲を変更</h3>
+        <a href="https://atcoder.jp/home">AtCoder</a>
+        <a class="click_a" href="https://atcoder.jp/home">AtCoder</a>
+      </div>
+      
     </div>
 
     <div class="footer">

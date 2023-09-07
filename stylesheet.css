@@ -35,6 +35,7 @@ li {
   color: #fff;
   height: 120px;
   padding: 40px;
+  clear: both;/**/
 }
 
 .footer-logo {
@@ -50,11 +51,11 @@ li {
   padding-bottom: 20px;
 }
 
-/*
+
 .pra_img {
-  float: top;
+  clear: left;
 }
-*/
+
 
 .myname {
   color: red;
@@ -86,7 +87,9 @@ li {
   
 }
 
-
+.pra_hori ul{
+  margin-bottom: 300px;
+}
 
 
 .pra_hori li{
@@ -136,9 +139,140 @@ input, textarea {/*複数のセレクタに同時にCSSを適用するときは�
   margin: 0 auto;
 }
 
+.link_insta {
+  display: block;
+  width: 100px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.pra_hover {
+  width: 300px;
+}
+.pra_hover:hover {
+  color: #17eb68;
+  background-color: rgb(235, 118, 166);
+}
 
 
 
 
 
+
+.hori {
+  float: left;
+  /**/
+}
+
+.box1 {
+  width: 200px;
+  height: 100px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.box2 {
+  width: 300px;
+  height: 300px;
+  background-color: purple;
+  border-radius: 150px;
+  opacity: 70%;
+}
+
+.box3 {
+  width: 200px;
+  height: 100px;
+  background-color: magenta;
+  border-radius: 50px;
+  opacity: 60%;
+}
+.box3:hover {
+  opacity: 100%;
+  width: 100px;
+  margin: 0 50px;
+}
+
+
+.font_awesome {
+  clear: left;
+}
+.fa-twitter {
+  color: red;
+  background-color: black;
+}
+
+
+.trans {
+  text-align: center;
+}
+
+.box4 {
+  width: 200px;
+  height: 100px;
+  line-height: 100px;
+  background-color: orange;
+  border-radius: 10px;
+  color: white;
+  font-size: 40px;
+  transition: all 1s;
+  
+}
+.box4:hover {
+  width: 100px;
+  height: 200px;
+  line-height: 200px;
+  background-color: red;
+  color: yellowgreen;
+}
+.box5 {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(128, 0, 128, 1);
+  border-radius: 150px;
+  opacity: 70%;
+  color: white;
+  font-size: 40px;
+  transition: all 2s;
+  line-height: 300px;
+}
+.box5:hover {
+  border-radius: 0px;
+  background-color: rgba(128, 0, 128, 0.3);
+  color: brown;
+}
+.box6 {
+  width: 200px;
+  height: 100px;
+  background-color: magenta;
+  border-radius: 50px;
+  opacity: 60%;
+  color: white;
+  font-size: 40px;
+  transition: all 3s;
+  line-height: 100px;
+}
+.box6:hover {
+  opacity: 100%;
+  width: 100px;
+  margin: 0 50px;
+}
+
+
+
+.click {
+  clear: both;
+}
+
+.click_a {
+  display: block;
+  height: 50px;
+  background-color:rgb(31, 103, 220);
+  color: pink; 
+  line-height: 50px;
+}
+
+.click a {
+  width: 180px;
+  text-align: center;
+}
 
